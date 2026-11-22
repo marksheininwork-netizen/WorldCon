@@ -1,6 +1,6 @@
 # WorldCon
 
-**Manufacturing starts with what the buyer needs.** WorldCon is a responsive buyer-first B2B manufacturing marketplace. Companies publish detailed sourcing requirements; manufacturers discover them, provide quotations and lead times, and message buyers directly. Buyers choose their supplier and award the sourcing request.
+**Manufacturing starts with what the buyer needs.** WorldCon is a responsive buyer-first B2B manufacturing marketplace. Companies publish detailed sourcing requirements; manufacturers discover them, provide quotations and lead times, and message buyers directly. Buyers choose their manufacturing partner and award the sourcing request.
 
 ## Features
 
@@ -10,7 +10,7 @@
 - Buyer request creation with categories, specifications, quantities, budgets and deadlines
 - Manufacturer proposals with USD quotes, lead times and a short production plan
 - Secure one-off award action that accepts one offer and declines competing offers atomically
-- Buyer and supplier dashboard views, private conversation threads, profile management
+- Buyer and manufacturer dashboard views, private conversation threads, profile management
 - Row-level database permissions with organization ownership enforcement
 - Explicitly labelled sample data when no Supabase project has been connected
 
@@ -44,7 +44,7 @@ This is a **functional MVP codebase** once configured; it is not yet a productio
 
 - Connect and deploy a real Supabase project, confirm end-to-end registration, posting, bidding, award, and message privacy using separate buyer/manufacturer accounts.
 - Add rate limiting, CAPTCHA, user/report moderation and abuse monitoring to prevent spam and fraud.
-- Verify company identities and supplier certifications and implement sanctions/export-control and prohibited-product screening where relevant.
+- Verify company identities and manufacturer certifications and implement sanctions/export-control and prohibited-product screening where relevant.
 - Add file upload with private signed access for specifications, drawings and NDAs. Do not upload confidential documents to public storage or place them in public request descriptions.
 - Add notifications and transactional email via a configured sending provider; current messages require returning to the app to see updates.
 - Implement offer cancellation and closed-request semantics as needed, audit logs, and more granular team/company permissions.
